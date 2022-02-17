@@ -60,12 +60,19 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
   if(x == y){
     return true;
   }
   else{
     return false;
   }
+=======
+  if(x === y){
+    return true;
+  }
+  return false;
+>>>>>>> 9b51fa5698dcc160f001618b8bd089e9060f6417
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -216,7 +223,11 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
+<<<<<<< HEAD
   return alto * ancho;
+=======
+  return ancho * alto;
+>>>>>>> 9b51fa5698dcc160f001618b8bd089e9060f6417
 }
 
 
@@ -230,7 +241,11 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+<<<<<<< HEAD
   return (base * altura) / 2;
+=======
+  return base * altura / 2;
+>>>>>>> 9b51fa5698dcc160f001618b8bd089e9060f6417
 }
 
 
@@ -271,7 +286,10 @@ function esVocal(letra){
   else{
     return "Dato incorrecto";
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b51fa5698dcc160f001618b8bd089e9060f6417
 }
 
 
