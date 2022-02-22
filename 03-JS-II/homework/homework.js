@@ -228,7 +228,7 @@ function tieneTresDigitos(numero) {
   // .length NO APLICA PARA NUMEROS, solo a strings y arrays
   var toString = numero.toString() //Pasamos los numeros a un string
   if (toString.length === 3) {
-    return false;
+    return true;
   }
   else {
     return false;
