@@ -107,6 +107,10 @@ function numeroMasGrande(numeros) {
   // Tu código:
   var num = numeros[0];
   //  [7, 4 , 3 ,8 ,9]
+  //  [0  1   2  3  4]
+
+  //return Math.max.apply(null,numeros)
+
   for (let i = 0; i < numeros.length; i++) {
     if (num < numeros[i]) {
       num = numeros[i];
@@ -169,6 +173,7 @@ function empiezaConNueve(n) {
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
   var num = n.toString();
+  //charAt hace referencia a la posicion impuesta en los parentecis.
   if (num.charAt(0) == 9) {
     return true;
   }
@@ -210,7 +215,6 @@ function mesesDelAño(array) {
   }
   return nuevoArray;
 }
-
 
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
