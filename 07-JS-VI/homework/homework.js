@@ -28,7 +28,7 @@ function sumarArray(numeros, cb) {
   //Tu código:
   var sumatoria = numeros.reduce(function(a,b){
     return a + b
-  });
+  },0);
   cb(sumatoria);
 }
 
@@ -38,7 +38,7 @@ function forEach(array, cb) {
   //Tu código:
   var elementos = array.forEach(function(element){
     cb(element);
-  },0);
+  });
 }
 
 function map(array, cb) {
@@ -64,6 +64,8 @@ function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+
+  //filter devuelve un array no es necesario crearlo por fuera.
   var arrayNuevo = array.filter(function(elementos){
     if(elementos[0] === "a"){
       return elementos;

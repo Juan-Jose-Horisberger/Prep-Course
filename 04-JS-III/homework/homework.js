@@ -190,7 +190,7 @@ function todosIguales(arreglo) {
   var arreglo1 = arreglo[0];
   for (let i = 0; i < arreglo.length; i++) {
     // [17, 24, 65 17, 78, 2, 5, 65, 5]
-    // 0    1   2   3   4  5  6   7   8
+    //  0   1   2   3   4  5  6   7   8
     if (arreglo1 !== arreglo[i]) {
       return false;
     }
